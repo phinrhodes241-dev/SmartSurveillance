@@ -73,3 +73,34 @@ opencv/
 # Flask runtime
 app.log
 ssl/
+
+# YOLO & training outputs
+runs/
+exp*/
+exp*/labels/
+exp*/weights/
+
+# Backup / checkpoints
+backup/
+checkpoints/
+
+# Images, videos, and results
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.mp4
+*.avi
+*.mov
+
+# Other temp folders
+output/
+results/
+tmp/
+temp/
+
+# Any virtual environments accidentally added
+Scripts/
+Lib/
+Include/
