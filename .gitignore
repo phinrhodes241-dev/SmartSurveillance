@@ -104,3 +104,6 @@ temp/
 Scripts/
 Lib/
 Include/
+
+# Roboflow dataset files
+*.rf.*
