@@ -62,3 +62,14 @@ dataset/
 
 # Misc
 thumbs.db
+
+# YOLO and training runs
+runs/
+yolov5/
+yolov8/
+models/
+opencv/
+
+# Flask runtime
+app.log
+ssl/
