@@ -1,0 +1,11 @@
+train: G:/Project/yolov5/weapon-detection-knives/train/images
+val:   G:/Project/yolov5/weapon-detection-knives/valid/images
+nc: 1
+names: ['knife']
+
+roboflow:
+  workspace: aitechproject
+  project: weapon-detection-knifes
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aitechproject/weapon-detection-knifes/dataset/1

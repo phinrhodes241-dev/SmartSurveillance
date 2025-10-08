@@ -1,0 +1,109 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+venv/
+env/
+.venv/
+ENV/
+
+# Byte-compiled
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Caches
+.cache/
+*.cache
+
+# PyTorch / model weights (do NOT commit large weights unless using LFS)
+weights/
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.h5
+*.ckpt
+*.zip
+
+# Datasets and large files
+data/
+dataset/
+*.csv
+*.json
+*.tar.gz
+
+# Git LFS attributes (generated if you use LFS)
+.gitattributes
+
+# Secrets / env
+.env
+.env.*
+
+# Misc
+thumbs.db
+
+# YOLO and training runs
+runs/
+yolov5/
+yolov8/
+models/
+opencv/
+
+# Flask runtime
+app.log
+ssl/
+
+# YOLO & training outputs
+runs/
+exp*/
+exp*/labels/
+exp*/weights/
+
+# Backup / checkpoints
+backup/
+checkpoints/
+
+# Images, videos, and results
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.mp4
+*.avi
+*.mov
+
+# Other temp folders
+output/
+results/
+tmp/
+temp/
+
+# Any virtual environments accidentally added
+Scripts/
+Lib/
+Include/
+
+# Roboflow dataset files
+*.rf.*
